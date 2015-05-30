@@ -24,6 +24,7 @@
                 <li><a href="#layout">Layout grid</a></li>
                 <li><a href="#collapsible">Collapsible content</a></li>
                 <li><a href="#collapsibleSet">Collapsible set</a></li>
+                <li><a href="#search">Search input</a></li>
             </ul>
         </div><!-- /navbar -->
     </div><!-- /header -->
@@ -60,6 +61,7 @@
                 <li><a href="#layout">Layout grid</a></li>
                 <li><a href="#collapsible">Collapsible content</a></li>
                 <li><a href="#collapsibleSet">Collapsible set</a></li>
+                <li><a href="#search">Search input</a></li>
             </ul>
         </div><!-- /navbar -->
     </div><!-- /header -->
@@ -93,6 +95,7 @@
                 <li><a href="#layout">Layout grid</a></li>
                 <li><a href="#collapsible">Collapsible content</a></li>
                 <li><a href="#collapsibleSet">Collapsible set</a></li>
+                <li><a href="#search">Search input</a></li>
             </ul>
         </div><!-- /navbar -->
     </div><!-- /header -->
@@ -125,6 +128,7 @@
                 <li><a href="#layout">Layout grid</a></li>
                 <li><a href="#collapsible">Collapsible content</a></li>
                 <li><a href="#collapsibleSet">Collapsible set</a></li>
+                <li><a href="#search">Search input</a></li>
             </ul>
         </div><!-- /navbar -->
     </div><!-- /header -->
@@ -145,6 +149,7 @@
                 <li><a href="#layout">Layout grid</a></li>
                 <li><a href="#collapsible">Collapsible content</a></li>
                 <li><a href="#collapsibleSet">Collapsible set</a></li>
+                <li><a href="#search">Search input</a></li>
             </ul>
         </div><!-- /navbar -->
     </div><!-- /footer -->
@@ -167,6 +172,7 @@
                 <li><a href="#layout">Layout grid</a></li>
                 <li><a href="#collapsible">Collapsible content</a></li>
                 <li><a href="#collapsibleSet">Collapsible set</a></li>
+                <li><a href="#search">Search input</a></li>
             </ul>
         </div><!-- /navbar -->
     </div><!-- /header -->
@@ -197,6 +203,7 @@
                 <li><a href="#layout">Layout grid</a></li>
                 <li><a href="#collapsible">Collapsible content</a></li>
                 <li><a href="#collapsibleSet">Collapsible set</a></li>
+                <li><a href="#search">Search input</a></li>
             </ul>
         </div><!-- /navbar -->
     </div><!-- /header -->
@@ -231,6 +238,7 @@
                 <li><a href="#layout">Layout grid</a></li>
                 <li><a href="#collapsible">Collapsible content</a></li>
                 <li><a href="#collapsibleSet">Collapsible set</a></li>
+                <li><a href="#search">Search input</a></li>
             </ul>
         </div><!-- /navbar -->
     </div><!-- /header -->
@@ -264,6 +272,7 @@
                 <li><a href="#layout">Layout grid</a></li>
                 <li><a href="#collapsible">Collapsible content</a></li>
                 <li><a href="#collapsibleSet">Collapsible set</a></li>
+                <li><a href="#search">Search input</a></li>
             </ul>
         </div><!-- /navbar -->
     </div><!-- /header -->
@@ -285,7 +294,7 @@
 <div id="collapsibleSet" data-role="page">
 
     <div data-role="header">
-        <h1>Collapsible content</h1>
+        <h1>Collapsible set</h1>
         <div data-role="navbar">
             <ul>
                 <li><a href="#listview">Listview</a></li>
@@ -297,6 +306,7 @@
                 <li><a href="#layout">Layout grid</a></li>
                 <li><a href="#collapsible">Collapsible content</a></li>
                 <li><a href="#collapsibleSet">Collapsible set</a></li>
+                <li><a href="#search">Search input</a></li>
             </ul>
         </div><!-- /navbar -->
     </div><!-- /header -->
@@ -312,6 +322,54 @@
                 <p>I'm the collapsible set content for section 2.</p>
             </div>
         </div>
+    </div><!-- /content -->
+
+    <div data-role="footer">
+        <h1>Kenny Deblaere</h1>
+    </div><!-- /footer -->
+
+</div><!-- /page -->
+
+<!-- search input, flip toggle and radio buttons  -->
+<div id="search" data-role="page">
+
+    <div data-role="header">
+        <h1>Search input</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#listview">Listview</a></li>
+                <li><a href="#slider">Slider</a></li>
+                <li><a href="#button">Button</a></li>
+                <li><a href="#buttonTheme">Button with theme</a></li>
+                <li><a href="#buttonInline">Button inline</a></li>
+                <li><a href="#groupedButtons">Grouped buttons</a></li>
+                <li><a href="#layout">Layout grid</a></li>
+                <li><a href="#collapsible">Collapsible content</a></li>
+                <li><a href="#collapsibleSet">Collapsible set</a></li>
+                <li><a href="#search">Search input</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /header -->
+
+    <div data-role="content">
+        <label for="search-basic">Search Input:</label>
+        <input type="search" name="search" id="search-basic" value="" />
+        <label for="flip-1">Flip switch:</label>
+        <select name="flip-1" id="flip-1" data-role="slider">
+            <option value="off">Off</option>
+            <option value="on">On</option>
+        </select>
+        <fieldset data-role="controlgroup">
+            <legend>Choose a pet:</legend>
+            <input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1" checked="checked" />
+            <label for="radio-choice-1">Cat</label>
+            <input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2"  />
+            <label for="radio-choice-2">Dog</label>
+            <input type="radio" name="radio-choice" id="radio-choice-3" value="choice-3"  />
+            <label for="radio-choice-3">Hamster</label>
+            <input type="radio" name="radio-choice" id="radio-choice-4" value="choice-4"  />
+            <label for="radio-choice-4">Lizard</label>
+        </fieldset>
     </div><!-- /content -->
 
     <div data-role="footer">
