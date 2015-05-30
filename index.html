@@ -9,10 +9,20 @@
 </head>
 <body>
 <!-- listview -->
-<div data-role="page">
+<div id="listview" data-role="page">
 
     <div data-role="header">
         <h1>A listview</h1>
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li><a href="#listview" data-icon="star">Listview</a></li>
+                <li><a href="#slider">Slider</a></li>
+                <li><a href="#button">Button</a></li>
+                <li><a href="#buttonTheme">Button with theme</a></li>
+                <li><a href="#buttonInline">Button inline</a></li>
+                <li><a href="#groupedButtons">Grouped buttons</a></li>
+            </ul>
+        </div><!-- /navbar -->
     </div><!-- /header -->
 
     <div data-role="content">
@@ -32,30 +42,20 @@
 </div><!-- /page -->
 
 <!-- slider -->
-<div data-role="page">
+<div id="slider" data-role="page">
 
     <div data-role="header">
         <h1>A slider</h1>
-    </div><!-- /header -->
-
-    <div data-role="content">
-        <form>
-            <label for="slider-0">Input slider:</label>
-            <input type="range" name="slider" id="slider-0" value="25" min="0" max="100" />
-        </form>
-    </div><!-- /content -->
-
-    <div data-role="footer">
-        <h4>Kenny Deblaere</h4>
-    </div><!-- /footer -->
-
-</div><!-- /page -->
-
-<!-- slider -->
-<div data-role="page">
-
-    <div data-role="header">
-        <h1>A slider</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#listview">Listview</a></li>
+                <li><a href="#slider">Slider</a></li>
+                <li><a href="#button">Button</a></li>
+                <li><a href="#buttonTheme">Button with theme</a></li>
+                <li><a href="#buttonInline">Button inline</a></li>
+                <li><a href="#groupedButtons">Grouped buttons</a></li>
+            </ul>
+        </div><!-- /navbar -->
     </div><!-- /header -->
 
     <div data-role="content">
@@ -72,10 +72,20 @@
 </div><!-- /page -->
 
 <!-- button -->
-<div data-role="page">
+<div id="button" data-role="page">
 
     <div data-role="header">
         <h1>A button</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#listview">Listview</a></li>
+                <li><a href="#slider">Slider</a></li>
+                <li><a href="#button">Button</a></li>
+                <li><a href="#buttonTheme">Button with theme</a></li>
+                <li><a href="#buttonInline">Button inline</a></li>
+                <li><a href="#groupedButtons">Grouped buttons</a></li>
+            </ul>
+        </div><!-- /navbar -->
     </div><!-- /header -->
 
     <div data-role="content">
@@ -84,6 +94,102 @@
 
     <div data-role="footer">
         <h4>Kenny Deblaere</h4>
+    </div><!-- /footer -->
+
+</div><!-- /page -->
+
+</body>
+
+<!-- button with theme -->
+<div id="buttonTheme" data-role="page">
+
+    <div data-role="header">
+        <h1>A button with a theme</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#listview">Listview</a></li>
+                <li><a href="#slider">Slider</a></li>
+                <li><a href="#button">Button</a></li>
+                <li><a href="#buttonTheme">Button with theme</a></li>
+                <li><a href="#buttonInline">Button inline</a></li>
+                <li><a href="#groupedButtons">Grouped buttons</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /header -->
+
+    <div data-role="content">
+        <a href="#" data-role="button" data-theme="b">Button</a>
+    </div><!-- /content -->
+
+    <div data-role="footer">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#listview">Listview</a></li>
+                <li><a href="#slider">Slider</a></li>
+                <li><a href="#button">Button</a></li>
+                <li><a href="#buttonTheme">Button with theme</a></li>
+                <li><a href="#buttonInline">Button inline</a></li>
+                <li><a href="#groupedButtons">Grouped buttons</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+
+</div><!-- /page -->
+
+<!-- button inline -->
+<div id="buttonInline" data-role="page">
+
+    <div data-role="header">
+        <h1>A button inline</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#listview">Listview</a></li>
+                <li><a href="#slider">Slider</a></li>
+                <li><a href="#button">Button</a></li>
+                <li><a href="#buttonTheme">Button with theme</a></li>
+                <li><a href="#buttonInline">Button inline</a></li>
+                <li><a href="#groupedButtons">Grouped buttons</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /header -->
+
+    <div data-role="content">
+        <a href="#" data-role="button" data-inline="true">Button</a>
+    </div><!-- /content -->
+
+    <div data-role="footer">
+        <h1>Kenny Deblaere</h1>
+    </div><!-- /footer -->
+
+</div><!-- /page -->
+
+<!-- grouped buttons  -->
+<div id="groupedButtons" data-role="page">
+
+    <div data-role="header">
+        <h1>A button inline</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#listview">Listview</a></li>
+                <li><a href="#slider">Slider</a></li>
+                <li><a href="#button">Button</a></li>
+                <li><a href="#buttonTheme">Button with theme</a></li>
+                <li><a href="#buttonInline">Button inline</a></li>
+                <li><a href="#groupedButtons">Grouped buttons</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /header -->
+
+    <div data-role="content">
+        <div data-role="controlgroup" data-mini="true" data-type="horizontal">
+            <a href="#" data-role="button">Yes</a>
+            <a href="#" data-role="button">No</a>
+            <a href="#" data-role="button">Maybe</a>
+        </div>
+    </div><!-- /content -->
+
+    <div data-role="footer">
+        <h1>Kenny Deblaere</h1>
     </div><!-- /footer -->
 
 </div><!-- /page -->
