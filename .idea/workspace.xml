@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="393c6ece-c45b-4661-9e64-55509d2e7d31" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alarm.html" afterPath="$PROJECT_DIR$/alarm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template.html" afterPath="$PROJECT_DIR$/template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user.html" afterPath="$PROJECT_DIR$/user.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JQuery Mobile tutorial.iws" />
@@ -27,8 +30,8 @@
       <file leaf-file-name="template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.653847">
-              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="90" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -37,18 +40,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="246" column="8" selection-start-line="246" selection-start-column="8" selection-end-line="249" selection-end-column="30" />
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="90" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.192308">
-              <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.2094065">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -64,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alarm.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="alarm.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alarm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15229563">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -125,10 +128,11 @@
         <option value="$PROJECT_DIR$/serve.js" />
         <option value="$PROJECT_DIR$/users.html" />
         <option value="$PROJECT_DIR$/template.js" />
-        <option value="$PROJECT_DIR$/template.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/user.js" />
         <option value="$PROJECT_DIR$/alarm.html" />
+        <option value="$PROJECT_DIR$/template.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/user.html" />
       </list>
     </option>
   </component>
@@ -296,7 +300,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433082055777</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Little bug fixed in Alarm">
+      <created>1433086903954</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1433086903954</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -341,7 +351,8 @@
     <MESSAGE value="Login" />
     <MESSAGE value="Login afgewerkt" />
     <MESSAGE value="Alarm class&#10;Add Alarm to List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alarm class&#10;Add Alarm to List" />
+    <MESSAGE value="Little bug fixed in Alarm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Little bug fixed in Alarm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -462,14 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="246" column="8" selection-start-line="246" selection-start-column="8" selection-end-line="249" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -477,22 +480,6 @@
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.653847">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.192308">
-          <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -506,8 +493,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alarm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15229563">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="90" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="90" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2094065">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding />
         </state>
       </provider>
